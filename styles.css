@@ -1,7 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background: radial-gradient(circle at center, #3b5893, #495D84);
-    background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
+    background: radial-gradient(circle at center, #dfe1e6, #e2e6ed);
+    background: radial-gradient(ellipse at bottom, #eff4f9, #d5d7e4);
     font-weight: 300;
 
 }
