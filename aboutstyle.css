@@ -143,3 +143,29 @@ body {
     50% {transform: translate(100px, -100px)} 
     75% {transform: translate(0, -100px)} 
   }
+
+
+.Bio {
+  position: absolute;
+  left: 340px;
+  bottom: 50%;
+  
+
+}
+
+.imagen {
+  position: absolute;
+  top: 10px;
+ left: 600px;
+
+}
+
+#social {
+  position: absolute;
+  left: 680px;
+  bottom: 430px;
+  
+
+}
+
+
