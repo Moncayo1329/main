@@ -147,8 +147,8 @@ body {
 
 .Bio {
   position: absolute;
-  left: 340px;
-  bottom: 50%;
+  left: 500px;
+  top: 45%;
   
 
 }
@@ -160,11 +160,16 @@ body {
 
 }
 
-#social {
-  position: absolute;
-  left: 680px;
-  bottom: 430px;
+.social {
+  position:absolute;
+  left: 660px;
+  position: center;
+  top: 38%;
+ 
   
+  
+
+ 
 
 }
 
