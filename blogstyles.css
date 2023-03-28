@@ -68,3 +68,10 @@ body {
     transition: all .25s ease-in-out;
   
   }
+
+
+.post{
+  position: absolute;
+  left: 160px;
+  top: 2px;
+}
