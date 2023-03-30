@@ -165,12 +165,20 @@ body {
   left: 660px;
   position: center;
   top: 38%;
- 
-  
-  
 
- 
 
 }
 
+@media screen and ( max-width:1103px){
+  .social{
+   color:green;
+  }
+.bio p{ 
+  color:red;
+}
+
+
+}
+
+  
 
