@@ -171,14 +171,31 @@ body {
 
 @media screen and ( max-width:1103px){
   .social{
-   color:green;
+   text-align: end;
+   font-size: 40px;
+   position: absolute;
+   left: 430px;
+  
+   
   }
-.bio p{ 
-  color:red;
+}
+  @media screen and ( max-width:1103px){
+    .bio p { 
+      font-family: 300px;
+      position: absolute;
+    
+    }
+
+  }
+.imagen{ 
+  position: absolute;
+  text-align: end;
+  font-size: 40px;
+
 }
 
 
-}
+
 
   
 
