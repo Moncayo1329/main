@@ -193,8 +193,8 @@ body {
 @media screen and (max-width:900px) {
   .bio { 
     position: relative;
-    left: 115px;
-    font-size: 20px;
+    left: 10px;
+    font-size: 10px;
     top:19%;
     
   }
