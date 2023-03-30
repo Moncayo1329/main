@@ -169,32 +169,37 @@ body {
 
 }
 
-@media screen and ( max-width:1103px){
-  .social{
-   text-align: end;
-   font-size: 40px;
-   position: absolute;
-   left: 430px;
-  
+@media screen and ( max-width:900px){
+  .social{ 
+    position: relative;
+    left: 185px;
+    font-size: 25px;
+    top: 15%;
    
   }
+  
 }
-  @media screen and ( max-width:1103px){
-    .bio p { 
-      font-family: 300px;
-      position: absolute;
+
+@media screen and (max-width:900px) {
+  .imagen { 
+    position: absolute;
+    left: 170px;
     
-    }
-
+    top:9%;
+    
   }
-.imagen{ 
-  position: absolute;
-  text-align: end;
-  font-size: 40px;
-
 }
 
-
+@media screen and (max-width:900px) {
+  .bio { 
+    position: relative;
+    left: 115px;
+    font-size: 20px;
+    top:19%;
+    
+  }
+}
+  
 
 
   
