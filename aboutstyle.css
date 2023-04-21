@@ -171,7 +171,7 @@ body {
 
 }
 
-@media screen and ( max-width:900px){
+@media screen and ( max-width:1024px){
   .social{ 
     position: relative;
     left: 100px;
@@ -182,17 +182,17 @@ body {
   
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1024px) {
   .imagen { 
     position: relative;
     left: 70px;
     font-weight: 40px;
-    top: -70px;
+    top: -80px;
     
   }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1024px) {
   .bio { 
     position: relative;
     left: 5px;
