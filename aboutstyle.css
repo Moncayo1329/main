@@ -171,36 +171,63 @@ body {
 
 }
 
-@media screen and ( max-width:1024px){
-  .social{ 
-    position: relative;
-    left: 100px;
+@media (max-width: 1200px){
+
+.socia{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+
+
+
+}
+
+}
+
+@media (max-width: 992px) {
+  .social {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .social {
+    position: absolute;
+    top: 80%;
+    left: 40%;
     font-size: 10px;
-    top: 30%;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .social {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    font-size: 10px;
+    gap: 25px;
    
   }
-  
-}
+  .Bio {
 
-@media screen and (max-width:1024px) {
-  .imagen { 
     position: absolute;
-    left: 70px;
-    font-weight: 40px;
-    top: 220px;
-    
-  }
-}
-
-@media screen and (max-width:1024px) {
-  .bio { 
-    position: absolute;
-    left: 5px;
+    top: 60%;
+    left: 20%;
     font-size: 10px;
-    top:70%;
     
+  
   }
+
+
+
 }
+
+
+
+
   
 
 
