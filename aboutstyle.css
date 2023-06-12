@@ -2,12 +2,14 @@
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+
 }
 
 body {
     font-family: 'Raleway', sans-serif;
     background: radial-gradient(circle at center, #dfe1e6, #e2e6ed);
-    background: radial-gradient(ellipse at bottom, #eff4f9, #d5d7e4);
+    background: #1b2735; 
     font-weight: 250%;
 
 }
@@ -31,7 +33,7 @@ body {
     padding: 0 10px;
     border-radius: 2px;
     box-shadow: inset 0 1px 1px rgba(4, 40, 20, 0.5), inset 0 -1px 0 rgba(0,0,0,.15), 0 1px 3px rgba(0,0,0,.15);
-    background: #1b2735,; 
+    background: #1b2735; 
   }
 
   #menu, #menu ul {
@@ -48,7 +50,7 @@ body {
   }
 
   #menu > li:first-child {
-    border-left: 1px solid rgba(250, 245, 245, 0.25);
+    border-left: 1px solid rgba(9, 9, 9, 0.25);
     box-shadow: -1px 0 0 rgba(0,0,0,.1), 1px 0 0 rgba(245, 241, 241, 0.25);
   }
 
@@ -58,13 +60,13 @@ body {
     z-index: 10;
     padding: 13px 20px 13px 20px;
     text-decoration: none;
-    color: rgb(11, 49, 86);
+    color: rgb(12, 13, 13);
     line-height: 1;
     font-weight: 550;
     font-size: 12px;
     letter-spacing: -.05em;
     background: transparent;    
-    text-shadow: 0 1px 1px rgba(4, 37, 40, 0.9);
+    text-shadow: 0 1px 1px rgba(1, 5, 5, 0.9);
     transition: all .25s ease-in-out;
   
   }
@@ -147,83 +149,32 @@ body {
 
 .Bio {
   position: absolute;
-  left: 500px;
+  left: 20px;
   top: 45%;
   
 
 }
 
-.imagen {
+.social{
+
   position: absolute;
-  top: 80px;
- left: 650px;
-
-
-
-}
-
-.social {
-  position:absolute;
-  left: 650px;
-  position: center;
-  top: 38%;
+  right: 80px;
+  top: 230px;
 
 
 }
 
-@media (max-width: 1200px){
-
-.socia{
-  position: absolute;
-  top: 60%;
-  left: 50%;
 
 
 
-}
-
-}
-
-@media (max-width: 992px) {
-  .social {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  .social {
-    position: absolute;
-    top: 80%;
-    left: 40%;
-    font-size: 10px;
-    gap: 25px;
-  }
-}
-
-@media (max-width: 576px) {
-  .social {
-    position: absolute;
-    top: 80%;
-    left: 40%;
-    font-size: 10px;
-    gap: 25px;
-   
-  }
-  .Bio {
-
-    position: absolute;
-    top: 55%;
-    left: 20%;
-    font-size: 10px;
-    
-  
-  }
 
 
 
-}
+
+
+
+
+
 
 
 
