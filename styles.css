@@ -1,7 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background: radial-gradient(circle at center, #dfe1e6, #e2e6ed);
-    background: radial-gradient(ellipse at bottom, #eff4f9, #d5d7e4);
+    background-color: #1b2735;
+    
     font-weight: 300;
 
 }
@@ -22,7 +22,7 @@ body {
 
 h1 a {
     font-size: 50px;
-    color: #3b5893;
+    color: #d6dae2;
     text-decoration: none;
     text-transform: uppercase;
   }
@@ -51,7 +51,7 @@ h1 a {
     width: 10px;
     height: 10px;
     color: #fff;
-    background-color: #1b2735;
+    background-color: #e6ebf1;
     animation: 1s grow ease forwards;
     text-align: center;
   }
@@ -63,7 +63,7 @@ h1 a {
   .nav_list a {
     text-decoration: none;
     font-size: 50px;
-    color: #fff;
+    color: #110f0f;
   }
 
   .nav_list li::before {
@@ -99,8 +99,8 @@ h1 a {
     font-size: 30px;
     align-items: center;
     justify-content: center;
-    background-color: #1b2735;
-    color: #fff;
+    background-color: #f2f1fb;
+    color: #040404;
     content: "x";
     cursor: pointer;
     opacity: 0; 
