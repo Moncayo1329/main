@@ -162,8 +162,25 @@ body {
   top: 230px;
 
 
+}  
+
+
+@media (min-width: 375px) {
+  .bio {
+      position: absolute;
+      right: 10px;
+    color: red;
+  }
+
+.social{
+
+position: absolute;
+left: 100px;
+
+
 }
 
+}
 
 
 
