@@ -162,6 +162,7 @@ body {
     top: 460px;
     transform: translate(-50%, -50%); /* Centra horizontal y verticalmente */
     text-align: center;
+    padding: 10px;
   }
 }
 
@@ -216,6 +217,23 @@ body {
   
   #menu li a:hover {
     color: #ffa500; /* Cambia el color del enlace al pasar el ratón */
+  }
+  .social {
+    color: #000000; /* Cambia el color de los iconos sociales */
+    position: absolute;
+    left: 50%;
+    top: 240px;
+    font-size: 20px;
+  }
+  
+  /* Estilos para la sección Bio */
+  .Bio {
+    position: absolute;
+    left: 50%;
+    top: 460px;
+    transform: translate(-50%, -50%); /* Centra horizontal y verticalmente */
+    text-align: center;
+    padding: 10px;
   }
   
 }
