@@ -166,7 +166,7 @@ h1{
     color: #000000; /* Cambia el color de los iconos sociales */
     position: absolute;
     left: 50%;
-    top: 250px;
+    top: 240px;
     font-size: 20px;
   }
   
@@ -174,7 +174,7 @@ h1{
   .Bio {
     position: relative;
     left: 50%;
-    top: 390px;
+    top: 380px;
     transform: translate(-50%, -50%); /* Centra horizontal y verticalmente */
     text-align: center;
     padding: 10px;
@@ -182,7 +182,7 @@ h1{
   h1{
 
 position: relative;
-top: 150px;
+top: 120px;
 left: 10px;
   }
 }
