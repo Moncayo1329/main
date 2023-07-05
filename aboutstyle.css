@@ -78,11 +78,17 @@ body {
 
 /* Estilos para la sección Bio */
 .Bio {
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 350px;
-  transform: translate(-50%, -50%); /* Centra horizontal y verticalmente */
   text-align: center;
+  transform: translate(-50%, -50%); /* Centra horizontal y verticalmente */
+}
+
+h1{
+  position: relative;
+  text-align: center;
+  top: 75px;
 }
 
 
@@ -163,7 +169,7 @@ body {
   
   /* Estilos para la sección Bio */
   .Bio {
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 430px;
     transform: translate(-50%, -50%); /* Centra horizontal y verticalmente */
