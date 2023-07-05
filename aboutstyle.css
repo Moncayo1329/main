@@ -61,26 +61,29 @@ body {
 
 /* Estilos para la sección social */
 .social {
-  position: absolute;
+  position: relative;
   left: 50%;
   bottom: 20px;
   transform: translateX(-50%); /* Centra horizontalmente */
   font-size: 30px;
   text-align: center;
+
 }
 
 .social {
   color: #000000; /* Cambia el color de los iconos sociales */
   position: absolute;
   left: 50%;
-  top: 180px;
+  top: 240px;
 }
+
+
 
 /* Estilos para la sección Bio */
 .Bio {
   position: relative;
+  top: 360px;
   left: 50%;
-  top: 350px;
   text-align: center;
   transform: translate(-50%, -50%); /* Centra horizontal y verticalmente */
 }
@@ -88,7 +91,7 @@ body {
 h1{
   position: relative;
   text-align: center;
-  top: 75px;
+  top: 150px;
 }
 
 
@@ -163,7 +166,7 @@ h1{
     color: #000000; /* Cambia el color de los iconos sociales */
     position: absolute;
     left: 50%;
-    top: 200px;
+    top: 300px;
     font-size: 20px;
   }
   
@@ -175,6 +178,12 @@ h1{
     transform: translate(-50%, -50%); /* Centra horizontal y verticalmente */
     text-align: center;
     padding: 10px;
+  }
+  h1{
+
+position: relative;
+top: 200px;
+left: 10px;
   }
 }
 
@@ -233,13 +242,8 @@ h1{
   #menu li a:hover {
     color: #ffa500; /* Cambia el color del enlace al pasar el ratón */
   }
-  .social {
-    color: #000000; /* Cambia el color de los iconos sociales */
-    position: absolute;
-    left: 50%;
-    top: 240px;
-    font-size: 20px;
-  }
+  
+  
   
   /* Estilos para la sección Bio */
   .Bio {
@@ -250,6 +254,8 @@ h1{
     text-align: center;
     padding: 10px;
   }
+
+  
   
 }
 
