@@ -173,11 +173,12 @@ h1{
   /* Estilos para la sección Bio */
   .Bio {
     position: relative;
-    left: 50%;
+    left: 45%;
     top: 380px;
     transform: translate(-50%, -50%); /* Centra horizontal y verticalmente */
     text-align: center;
     padding: 10px;
+    margin: 20px;
   }
   h1{
 
